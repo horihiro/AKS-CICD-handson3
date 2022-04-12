@@ -9,11 +9,11 @@ permissions:
 
 env:
   # TODO: Update this
-  SQL_SERVER: 
-  DATABASENAME: 
-  ACR: 
-  AKS_CLUSTER_NAME: 
-  RESOURCE_GROUP_NAME: 
+  SQL_SERVER: sqlsv-githubcicdhandson.database.windows.net
+  DATABASENAME: mhcdb
+  ACR: acrgithubcicdhandson.azurecr.io
+  AKS_CLUSTER_NAME: aks-githubcicdhandson
+  RESOURCE_GROUP_NAME: a-rg-akscicd-handson
 
 jobs:
   build:
